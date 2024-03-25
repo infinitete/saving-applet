@@ -1,4 +1,4 @@
-@import './theme.scss';
+@import "./theme.scss";
 
 $activeColor: $color-brand;
 $defaultColor: #5e5e5e;
@@ -7,11 +7,10 @@ $bodyMargin: 60px;
 $color-complementary: #942864;
 
 // 隐藏滚动条
-::-webkit-scrollbar
-{
-  width: 0;
-  height: 0;
+::-webkit-scrollbar {
   color: transparent;
+  height: 0;
+  width: 0;
 }
 
 .width-100vw {
@@ -35,7 +34,7 @@ $color-complementary: #942864;
 }
 
 .flex-center {
-  align-items: center;   // 垂直居中，
+  align-items: center; // 垂直居中，
   justify-content: center; // 水平居中，
 }
 
@@ -52,7 +51,7 @@ $color-complementary: #942864;
 }
 
 .bg-color-fff {
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .text-center {
@@ -110,7 +109,7 @@ $color-complementary: #942864;
 }
 
 .tabbar-box-shadow {
-  box-shadow: 0px -4px 36px 0px rgba(0,0,0,.06);
+  box-shadow: 0px -4px 36px 0px rgba(0, 0, 0, 0.06);
 }
 
 .margin-bottom-12px {
@@ -175,7 +174,7 @@ $color-complementary: #942864;
 
 .background-color-f8f8f8:active {
   background-color: #f4f4f4;
-  transition-duration: .45s;
+  transition-duration: 0.45s;
 }
 
 .border-radius-16px {
@@ -185,7 +184,6 @@ $color-complementary: #942864;
 .border-color-0fb3ff {
   border: 1px solid #0fb3ff;
 }
-
 
 .height-42px {
   height: 42px;
@@ -223,7 +221,6 @@ $color-complementary: #942864;
   padding-bottom: 10px;
 }
 
-
 .height-28px {
   height: 28px;
 }
@@ -256,7 +253,7 @@ $color-complementary: #942864;
 }
 
 .page-border-top {
-  border-top: 1px solid rgba(0, 0, 0, .1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .font-color-7b7b7b {
@@ -335,11 +332,11 @@ $color-complementary: #942864;
 }
 
 .background-color-367ef2 {
-  background-color: #367EF2;
+  background-color: #367ef2;
 }
 
 .font-color-367ef2 {
-  color: #367EF2;
+  color: #367ef2;
 }
 
 .border-radius-4px {
@@ -379,7 +376,7 @@ $color-complementary: #942864;
 }
 
 .font-color-acacac {
-  color: #ACACAC;
+  color: #acacac;
 }
 
 .width-auto {
@@ -419,13 +416,12 @@ $color-complementary: #942864;
   height: 18px;
 }
 
-
 .margin-top-36px {
   margin-top: 36px;
 }
 
 .vc-brief-box-shadow {
-  box-shadow: 0 -4px 36px 0 rgba(0,0,0,.06);
+  box-shadow: 0 -4px 36px 0 rgba(0, 0, 0, 0.06);
 }
 
 .padding-left-55px {
@@ -450,7 +446,7 @@ $color-complementary: #942864;
 }
 
 .font-color-6099FF {
-  color: #6099FF;
+  color: #6099ff;
 }
 
 .padding-top-30px {
@@ -475,7 +471,7 @@ $color-complementary: #942864;
 }
 
 .font-color-00D968 {
-  color: #00D968;
+  color: #00d968;
 }
 
 .font-color-f14d4d {
@@ -483,11 +479,11 @@ $color-complementary: #942864;
 }
 
 .font-color-ffbd27 {
-  color: #FFBD27;
+  color: #ffbd27;
 }
 
 .font-color-00D3FF {
-  color: #00D3FF;
+  color: #00d3ff;
 }
 
 .padding-bottom-50px {
@@ -695,11 +691,11 @@ $color-complementary: #942864;
 }
 
 .background-color-ff0000 {
-  background-color: rgba(255, 0, 0, .48);
+  background-color: rgba(255, 0, 0, 0.48);
 }
 
 .background-color-ffff00 {
-  background-color: #EEAA11;
+  background-color: #eeaa11;
 }
 
 .width-60px {
@@ -717,7 +713,6 @@ $color-complementary: #942864;
 .height-178px {
   height: 178px;
 }
-
 
 .line-height-178px {
   line-height: 178px;
@@ -891,16 +886,16 @@ $color-complementary: #942864;
 }
 
 .app-bg-image {
-  background-image: linear-gradient(16deg,#1e90ff 20%,#0fb3ff 80%);
+  background-image: linear-gradient(16deg, #1e90ff 20%, #0fb3ff 80%);
 }
 
 .app-bg-image:active {
-  background-image: linear-gradient(160deg , #0fb3ff  20%,#1e90ff 80%);
+  background-image: linear-gradient(160deg, #0fb3ff 20%, #1e90ff 80%);
 }
 
 .background-color-0fb3ff {
   background-color: #0fb3ff;
-  transition-duration: .45s;
+  transition-duration: 0.45s;
 }
 
 .font-color-0fb3ff {
@@ -922,6 +917,7 @@ $color-complementary: #942864;
 .background-color-f0f0f0 {
   background-color: #f0f0f0;
 }
+
 .invisible {
   opacity: 0;
   width: 0;
@@ -931,13 +927,13 @@ $color-complementary: #942864;
   z-index: -999;
   left: -99999px;
   top: -99999px;
-  transform: translate(-99999px, -99999px,-99999px);
+  transform: translate(-99999px, -99999px, -99999px);
 
   canvas {
     left: -99999px;
     position: absolute;
     top: -99999px;
-    transform: translate(-99999px, -99999px,-99999px);
+    transform: translate(-99999px, -99999px, -99999px);
     z-index: -999;
   }
 }
@@ -966,17 +962,15 @@ $color-complementary: #942864;
 }
 
 .dot-second {
-  background-color: #FFA51E;
+  background-color: #ffa51e;
   border-radius: 50%;
   height: 20px;
   width: 20px;
 }
 
-
 .padding-all-4px {
   padding: 4px;
 }
-
 
 .padding-all-8px {
   padding: 8px;
@@ -1011,33 +1005,33 @@ $color-complementary: #942864;
 .gap-16px {
   grid-gap: 16px;
 }
-.background-color-0fb3ff:active{
+.background-color-0fb3ff:active {
   background-color: #1e90ff;
-  transition-duration: .45s;
+  transition-duration: 0.45s;
 }
 
 .modal {
-  position:fixed;
+  position: fixed;
   top: 60px;
   left: 0px;
   width: 100%;
   height: calc(100% - 60px);
   overflow-y: scroll;
-  z-index:2;
-  background-color: rgba(0, 0, 0, .3);
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .pop-modal {
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100vh;
-  z-index:2;
+  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(76, 75, 75, .7);
+  background-color: rgba(76, 75, 75, 0.7);
 }
 
 .width-720px {
@@ -1049,28 +1043,28 @@ $color-complementary: #942864;
 }
 
 .take-photo-item {
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }
 
 .take-photo-item:active {
   background-color: #f0f0f0;
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }
 
 .delete-icon {
-  background-color: rgba(255, 255, 255, .75);
-  transition-duration: .25s;
+  background-color: rgba(255, 255, 255, 0.75);
+  transition-duration: 0.25s;
 }
 
 .delete-icon:active {
   background-color: #f0f0f0;
-  transition-duration: .25s;
+  transition-duration: 0.25s;
 }
 
 .touchable:active {
   background-color: #f0f0f0;
   border-radius: 8px;
-  transition-duration: .45s;
+  transition-duration: 0.45s;
 }
 
 .pop-call-tel {
@@ -1084,7 +1078,7 @@ $color-complementary: #942864;
   margin-top: 32px;
 }
 
-.pop-cel-footer >button {
+.pop-cel-footer > button {
   flex: 1;
 }
 
@@ -1126,7 +1120,7 @@ $color-complementary: #942864;
   color: #fff;
 }
 
-.status-bar-user{
+.status-bar-user {
   @extend .flex;
   @extend .flex-center;
   @extend .flex-row;
@@ -1134,7 +1128,6 @@ $color-complementary: #942864;
   background-color: $color-complementary;
   color: #fff;
 }
-
 
 .app-home {
   @extend .flex;
@@ -1291,21 +1284,19 @@ $color-complementary: #942864;
   }
 }
 
-
 .app-waves {
   background-color: #fff;
   width: 110px;
   height: 110px;
   transform: translateY(-55px);
   border-radius: 50%;
-  transition-duration: 0.25s;
+  transition-duration: .25s;
   border: 1px solid $color-brand;
 
   .icon {
     transition-duration: 0.125s;
   }
 }
-
 
 .app-waves:hover {
   transition-duration: 0.25s;
@@ -1317,29 +1308,60 @@ $color-complementary: #942864;
   }
 }
 
-.user-main-card {
-  @extend .height-330px;
-  @extend .width-100vw;
+.user-page {
+
   @extend .flex;
-  @extend .flex-center;
+  @extend .flex-column;
 
-  background-color: $color-complementary;
-  box-shadow: 0 2px 16px $color-complementary;
-
-  .main {
+  .user-main-card {
+    @extend .height-330px;
+    @extend .width-100vw;
     @extend .flex;
     @extend .flex-center;
-    @extend .flex-column;
 
-    .avatar {
-      width: 120px;
-      height: 120px;
-      border-radius: 60px;
+    background-color: $color-complementary;
+    box-shadow: 0 2px 16px $color-complementary;
+
+    .main {
+      @extend .flex;
+      @extend .flex-center;
+      @extend .flex-column;
+
+      .avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+      }
+
+      .text {
+        margin-top: 30px;
+        color: #fff;
+      }
     }
+  }
 
-    .text {
-      margin-top: 30px;
-      color: #fff;
+  .user-content {
+    flex: 1;
+    width: 100%;
+    margin-top: 30px;
+
+    .user-menus {
+      display: grid;
+      margin-left: 30px;
+      margin-right: 30px;
+
+      .user-menu {
+        color: $color-complementary;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid $color-brand-dark;
+
+        .icon {
+          width: 32px;
+          height: 32px;
+        }
+      }
     }
   }
 }

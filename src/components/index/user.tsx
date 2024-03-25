@@ -1,4 +1,11 @@
-import { View, Image, Input, Button, BaseEventOrig } from "@tarojs/components";
+import {
+  View,
+  Image,
+  Input,
+  Button,
+  BaseEventOrig,
+  Text,
+} from "@tarojs/components";
 import React from "react";
 
 const Home: React.FC = () => {
@@ -12,7 +19,7 @@ const Home: React.FC = () => {
   );
 
   return (
-    <View className="width-100vw">
+    <View className="width-100vw user-page">
       <View className="user-main-card">
         <View className="main">
           <View className="avatar">
@@ -33,6 +40,37 @@ const Home: React.FC = () => {
               type="nickname"
               style={{ width: "100px", textAlign: "center" }}
             />
+          </View>
+        </View>
+      </View>
+
+      <View className="user-content">
+        <View className="user-menus">
+          <View className="user-menu">
+            <View>
+              <Image className="icon" src="" />
+            </View>
+            <View>
+              <Text>目标</Text>
+            </View>
+          </View>
+
+          <View className="user-menu">
+            <View>
+              <Image className="icon" src="" />
+            </View>
+            <View>
+              <Text>目标</Text>
+            </View>
+          </View>
+
+          <View className="user-menu">
+            <View>
+              <Image className="icon" src="" />
+            </View>
+            <View>
+              <Text>目标</Text>
+            </View>
           </View>
         </View>
       </View>

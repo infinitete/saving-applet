@@ -1,3 +1,4 @@
+import React from "react";
 import HomeActiveIcon from "../../assets/icons/home_active.svg";
 import HomeNormalIcon from "../../assets/icons/home_normal.svg";
 import UserActiveIcon from "../../assets/icons/user_active.svg";
