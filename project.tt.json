@@ -1,9 +1,13 @@
 {
   "miniprogramRoot": "./",
   "projectname": "saving",
-  "appid": "testAppId",
+  "description": "saving",
+  "appid": "touristappid",
   "setting": {
+    "urlCheck": true,
     "es6": false,
+    "postcss": false,
     "minified": false
-  }
+  },
+  "compileType": "miniprogram"
 }

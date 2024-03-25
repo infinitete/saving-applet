@@ -1,7 +1,7 @@
 {
   "miniprogramRoot": "./dist",
-  "projectname": "定存助手",
-  "description": "定存助手",
+  "projectname": "saving",
+  "description": "saving",
   "appid": "touristappid",
   "setting": {
     "urlCheck": true,
