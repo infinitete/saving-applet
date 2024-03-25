@@ -1123,7 +1123,16 @@ $color-complementary: #942864;
   @extend .flex-row;
   @extend .bg-color-brand;
 
-  color: $color-complementary;
+  color: #fff;
+}
+
+.status-bar-user{
+  @extend .flex;
+  @extend .flex-center;
+  @extend .flex-row;
+
+  background-color: $color-complementary;
+  color: #fff;
 }
 
 
@@ -1305,5 +1314,32 @@ $color-complementary: #942864;
   .icon {
     transition-duration: 0.125s;
     transform: scale(1.25);
+  }
+}
+
+.user-main-card {
+  @extend .height-330px;
+  @extend .width-100vw;
+  @extend .flex;
+  @extend .flex-center;
+
+  background-color: $color-complementary;
+  box-shadow: 0 2px 16px $color-complementary;
+
+  .main {
+    @extend .flex;
+    @extend .flex-center;
+    @extend .flex-column;
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 60px;
+    }
+
+    .text {
+      margin-top: 30px;
+      color: #fff;
+    }
   }
 }

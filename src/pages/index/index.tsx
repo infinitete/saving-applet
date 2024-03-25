@@ -4,6 +4,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import StatusBarComp from "../../components/statusbar";
 import HomePageStatusBar from "../../components/statusbar/home";
+import UserPageStatusBar from "../../components/statusbar/user";
 import TabbarComp from "../../components/tabbar/index";
 import { SET_VIEW_PORT } from "../../constants/viewport";
 import { ReducersType } from "../../reducers";
@@ -25,8 +26,8 @@ const Index: React.FC = () => {
     };
     return [
       <HomePageStatusBar key="home" style={_style} />,
-      <View key="empty" />,
       <React.Fragment key="empty" />,
+      <UserPageStatusBar key="user" style={_style} />,
     ];
   }, [ViewPort]);
 

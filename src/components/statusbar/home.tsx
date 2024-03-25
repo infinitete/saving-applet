@@ -5,9 +5,7 @@ const HomepageStatusBar: React.FC<{ style: React.CSSProperties }> = (props) => {
   return (
     <View className="status-bar-home" {...props}>
       <View className="flex flex-1 flex-center">
-        <View className="font-size-34px">
-          <Text>蜜罐</Text>
-        </View>
+        <Text>蜜罐</Text>
       </View>
     </View>
   );

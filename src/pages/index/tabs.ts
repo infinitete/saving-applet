@@ -55,7 +55,7 @@ const tabbarItems: tabbarItemType[] = [
     title: "我的",
     comp: UserComp,
     className: "flex flex-1 flex-column height-110px flex-center",
-    enableRefresh: true,
+    enableRefresh: false,
     mustLogin: false,
   },
 ];
