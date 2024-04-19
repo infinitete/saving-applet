@@ -1144,10 +1144,14 @@ $color-complementary: #942864;
 }
 
 .home-total-card {
-  @extend .height-330px;
+  @extend .height-218px;
   @extend .width-100vw;
   background-color: $color-brand;
   box-shadow: 0 2px 16px $color-brand;
+
+  @extend .flex;
+  @extend .flex-center;
+  @extend .flex-1;
 
   .icon-wrapper {
     @extend .width-100p;

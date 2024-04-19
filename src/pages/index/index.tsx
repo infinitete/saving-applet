@@ -1,6 +1,6 @@
 import { View } from "@tarojs/components";
 import Taro, { useLaunch } from "@tarojs/taro";
-import React, { useRef } from "react";
+import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import StatusBarComp from "../../components/statusbar";
 import HomePageStatusBar from "../../components/statusbar/home";
